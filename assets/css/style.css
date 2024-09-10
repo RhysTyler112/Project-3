@@ -129,13 +129,26 @@ html, body {
 
   /* -----------------------------------------------------Media Queries */
 @media only screen and (min-width: 1440px){
+  p {
+    font-size: 1.3em;
+  }
+/*---------------------------------------------Nav Bar*/
+.logo {
+  font-size: 25px;
+}
+
+.nav-bar {
+  height: 100px;
+}
+.menu li a {
+  font-size: 22px;
+}
+/*-------------------------------------------Hero Image*/
   .heroimage {
     width: 100%;
     padding-top: 10%;
   }
-  p {
-    font-size: 1.3em;
-  }
+  
 }
 
 /* -----------------------------------------------------Bootstap Overide */
