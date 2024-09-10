@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #285726;
+    color: #fdfdfd;
+  }
+/*---------------------------------------------Nav Bar*/
+.logo {
+    color: rgb(255, 215, 0);
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family:"Glegoo", sans-serif;
+  }
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000;
+    color: rgb(255, 215, 0);
+    height: 75px;
+    padding: 1em;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: rgb(255, 215, 0);
+    font-weight: 500;
+    font-size: 16px;
+    font-family:sans-serif;
+  }
+
+  .menu li {
+    padding: 1%;
+    margin-right: 10px;
+  }
+  
+/*-------------------------------------------Hero Image*/
+  .heroimage {
+    width: 100%;
+}
