@@ -4,13 +4,14 @@ html, body {
     background-color: #285726;
     color: #fdfdfd;
   }
+
 /*---------------------------------------------Nav Bar*/
 .logo {
     color: rgb(255, 215, 0);
     font-size: 20px;
     font-weight: 800;
     text-decoration: none;
-    font-family:"Glegoo", sans-serif;
+    font-family:sans-serif;
   }
 
 .nav-bar {
@@ -19,7 +20,6 @@ html, body {
     align-items: center;
     justify-content: space-between;
     background: #000000;
-    color: rgb(255, 215, 0);
     height: 75px;
     padding: 1em;
   }
@@ -34,7 +34,7 @@ html, body {
 
   .menu li a {
     text-decoration: none;
-    color: rgb(255, 215, 0);
+    color: #fdfdfd;
     font-weight: 500;
     font-size: 16px;
     font-family:sans-serif;
@@ -45,7 +45,55 @@ html, body {
     margin-right: 10px;
   }
   
+  .menu li:hover {
+    background-color: #285726;
+  }
+  
+  nav a.active {
+    border: #285726 solid 2px;
+    padding: 1px;
+  }
 /*-------------------------------------------Hero Image*/
   .heroimage {
     width: 100%;
+    padding: 10px;
+}
+/*---------------------------------------Summary of Halo*/
+.index-summary{
+    padding: 10px;
+    text-align: center;
+
+}
+.index-summary h1 {
+    text-decoration: underline;
+}
+/*---------------------------------------Order Types*/
+.order-types {
+    padding: 10px;
+    text-align: center;
+}
+.order-types h2,h3{
+    text-decoration: underline;
+}
+
+/*---------------------------------------Reason for site*/
+
+.reason{
+    padding: 10px;
+    text-align: center;
+}
+.reason h2{
+    text-decoration: underline;
+}
+
+/*---------------------------------------footer*/
+.footer{
+    background: #000000;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    right: 0;
 }
