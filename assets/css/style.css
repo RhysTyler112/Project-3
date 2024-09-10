@@ -125,3 +125,9 @@ html, body {
     padding: 5%;
     color: #fafafa;
   }
+
+/* -----------------------------------------------------Bootstap Overide */
+
+.container-fluid {
+  padding: 0;
+}
