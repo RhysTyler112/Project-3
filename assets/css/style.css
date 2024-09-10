@@ -126,8 +126,19 @@ html, body {
     color: #fafafa;
   }
 
-/* -----------------------------------------------------Bootstap Overide */
 
+  /* -----------------------------------------------------Media Queries */
+@media only screen and (min-width: 1440px){
+  .heroimage {
+    width: 100%;
+    padding-top: 10%;
+  }
+  p {
+    font-size: 1.3em;
+  }
+}
+
+/* -----------------------------------------------------Bootstap Overide */
 .container-fluid {
   padding: 0;
 }
