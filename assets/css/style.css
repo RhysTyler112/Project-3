@@ -1,119 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 html, body {
-    margin: 0;
-    height: 100%;
-    background-color: #285726;
-    color: #fdfdfd;
-    overflow-x: hidden;
-  }
+  margin: 0;
+  height: 100%;
+  background-color: #285726;
+  color: #fdfdfd;
+  overflow-x: hidden;
+
+}
 /*----------------------------------------------------------Index.html*/
 /*---------------------------------------------Nav Bar*/
 .logo {
-    color: rgb(255, 215, 0);
-    font-size: 20px;
-    font-weight: 800;
-    text-decoration: none;
-    font-family:sans-serif;
-  }
+  color: rgb(255, 215, 0);
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  font-family:Nunito, glegoo, sans-serif;
+}
 
 .nav-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background: #000000;
-    height: 75px;
-    padding: 1em;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #000000;
+  height: 75px;
+  padding: 1em;
+}
   
-  .menu {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .menu li a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: 500;
-    font-size: 16px;
-    font-family:sans-serif;
-    background-color: #fdfdfd;
-    padding: 5px;
-    border: 3px solid green;
-    border-radius: 5px;
-  }
+.menu li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  font-family:Nunito, glegoo, sans-serif;
+  background-color: #fdfdfd;
+  padding: 5px;
+  border: 3px solid green;
+  border-radius: 5px;
+}
 
-  .menu li {
-    padding: 1%;
-    margin-right: 10px;
-  }
+.menu li {
+  padding: 1%;
+  margin-right: 10px;
+}
 
-  .menu a:hover {
-    background-color: #285726;
-    color: #fafafa;
-  }
+.menu a:hover {
+  background-color: #285726;
+  color: #fafafa;
+}
 
-  nav a.active {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
-    font-family:sans-serif;
-    background-color: #285726;
-    padding: 5px;
-    border: 3px solid green;
-    border-radius: 5px;
-  }
+nav a.active {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  font-family:Nunito, glegoo, sans-serif;
+  background-color: #285726;
+  padding: 5px;
+  border: 3px solid green;
+  border-radius: 5px;
+}
 /*-------------------------------------------Hero Image*/
-  .heroimage {
-    width: 100%;
-    padding: 10px;
+.heroimage {
+  width: 100%;
+  padding: 10px;
 }
 
 /*-------------------------------------------Accordion*/
 .accordion-button:not(.collapsed) {
   color: rgb(255, 215, 0);
   background-color: #000000;
-  
+  font-family:Nunito, glegoo, sans-serif;
 }
 button.accordion-button.collapsed{
   background-color: #285726;
   color: #ffffff;
+  font-family:Nunito, glegoo, sans-serif;
 }
 
 .accordion-body{
   text-align: center;
+  font-family:Nunito, glegoo, sans-serif;
 }
 
 /*---------------------------------------footer*/
 .footer{
-    background: #000000;
-    padding: 1em;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    position: relative;
-    bottom: 0;
-    right: 0;
+  background: #000000;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  font-family:Nunito, glegoo, sans-serif;
 }
 
 .social-networks{
-    text-align: center;
-  }
+  text-align: center;
+}
   
-  .social-networks li{
-    display: inline;
+.social-networks li{
+  display: inline;
+
+}
   
-  }
-  
-  .social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #fafafa;
-  }
+.social-networks i{
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #fafafa;
+}
 
 
   /* -----------------------------------------------------Media Queries */
