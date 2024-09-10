@@ -82,8 +82,9 @@ button.accordion-button.collapsed{
   background-color: #285726;
   color: #ffffff;
 }
-button.accordion-button {
-  font-size: 16px;
+
+.accordion-body{
+  text-align: center;
 }
 
 /*---------------------------------------footer*/
@@ -131,7 +132,9 @@ button.accordion-button {
 .menu li a {
   font-size: 22px;
 }
-  
+button.accordion-button {
+  font-size: 25px;
+}
 }
 
 /* -----------------------------------------------------Bootstap Overide */
