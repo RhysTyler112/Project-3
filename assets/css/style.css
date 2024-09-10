@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     background-color: #285726;
     color: #fdfdfd;
+    overflow-x: hidden;
   }
 /*----------------------------------------------------------Index.html*/
 /*---------------------------------------------Nav Bar*/
@@ -70,32 +71,19 @@ html, body {
     width: 100%;
     padding: 10px;
 }
-/*---------------------------------------Summary of Halo*/
-.index-summary{
-    padding: 10px;
-    text-align: center;
 
+/*-------------------------------------------Accordion*/
+.accordion-button:not(.collapsed) {
+  color: rgb(255, 215, 0);
+  background-color: #000000;
+  
 }
-.index-summary h1 {
-    text-decoration: underline;
+button.accordion-button.collapsed{
+  background-color: #285726;
+  color: #ffffff;
 }
-/*---------------------------------------Order Types*/
-.order-types {
-    padding: 10px;
-    text-align: center;
-}
-.order-types h2,h3{
-    text-decoration: underline;
-}
-
-/*---------------------------------------Reason for site*/
-
-.reason{
-    padding: 10px;
-    text-align: center;
-}
-.reason h2{
-    text-decoration: underline;
+button.accordion-button {
+  font-size: 16px;
 }
 
 /*---------------------------------------footer*/
@@ -143,11 +131,6 @@ html, body {
 .menu li a {
   font-size: 22px;
 }
-/*-------------------------------------------Hero Image*/
-  .heroimage {
-    width: 100%;
-    padding-top: 10%;
-  }
   
 }
 
